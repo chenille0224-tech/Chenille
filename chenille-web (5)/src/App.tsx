@@ -188,24 +188,24 @@ const PRODUCT_INSIGHTS = [
   { 
     name: "Citado 多人分层协作批注系统", 
     desc: "如何优化多人实时协作下的信息分层与批注效率，构建高效协作闭环。", 
-    img: "./citado0.1.jpg" 
+    img: "/citado0.1.jpg" 
   },
   { 
     name: "SeLock 智能门禁小程序后台", 
     desc: "基于用户权限管理与安全性考量的流程优化，提升B端管理后台的操作体验。", 
-    img: "./selock-admin.jpg" 
+    img: "/selock-admin.jpg" 
   },
   { 
     name: "Seekcam 台球精彩回放相机", 
     desc: "从底层算法逻辑到用户交互落地的产品调研，探索AI视觉在垂直体育场景的应用。", 
-    img: "./Seekcam.jpg" 
+    img: "/Seekcam.jpg" 
   }
 ];
 
 const LIFE_IMAGES = [
-  "./me.png",
-  "./vol.png",
-  "./cake.png",
+  "/me.png",
+  "/vol.png",
+  "/cake.png",
   "https://picsum.photos/seed/life-4/600/800",
   "https://picsum.photos/seed/life-5/600/800",
   "https://picsum.photos/seed/life-6/600/800",
@@ -588,7 +588,7 @@ export default function App() {
             <div className="absolute -inset-4 bg-accent-yellow border-4 border-black -rotate-3 transition-transform group-hover:rotate-0"></div>
             <div className="relative w-full aspect-square brutal-card bg-brand-blue overflow-hidden brutal-card-hover z-10">
               <img 
-                src="./home-pic.png" 
+                src="/home-pic.png" 
                 alt="Avatar" 
                 className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
                 onError={(e) => {
@@ -953,7 +953,7 @@ export default function App() {
               <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
                 <div className="w-32 aspect-[3/4] brutal-card bg-white overflow-hidden shrink-0">
                   <img 
-                    src="./kkb.png" 
+                    src="/kkb.png" 
                     alt="AI Mini Program" 
                     className="w-full h-full object-cover"
                   />
